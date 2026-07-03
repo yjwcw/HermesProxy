@@ -1,0 +1,5 @@
+vs2022
+DotNetZip 1.15.0
+Google.Protobuf 3.11.4
+System.CommandLine 2.0.0-beta4.22272.1        --必须从 NuGet 安装
+System.Configuration.ConfigurationManager 5.0
