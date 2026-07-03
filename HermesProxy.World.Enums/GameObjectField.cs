@@ -1,0 +1,42 @@
+using HermesProxy.Enums;
+
+namespace HermesProxy.World.Enums;
+
+public enum GameObjectField
+{
+	[UpdateField(UpdateFieldType.Bytes)]
+	GAMEOBJECT_BYTES_1,
+	[UpdateField(UpdateFieldType.Int)]
+	GAMEOBJECT_DISPLAYID,
+	[UpdateField(UpdateFieldType.Short)]
+	GAMEOBJECT_DYNAMIC,
+	GAMEOBJECT_DYN_FLAGS,
+	GAMEOBJECT_END,
+	[UpdateField(UpdateFieldType.Int)]
+	GAMEOBJECT_FACTION,
+	[UpdateField(UpdateFieldType.Guid)]
+	GAMEOBJECT_FIELD_CREATED_BY,
+	GAMEOBJECT_FIELD_CUSTOM_PARAM,
+	GAMEOBJECT_FIELD_GUILD_GUID,
+	[UpdateField(UpdateFieldType.Uint)]
+	GAMEOBJECT_FLAGS,
+	[UpdateField(UpdateFieldType.Uint)]
+	GAMEOBJECT_LEVEL,
+	[UpdateField(UpdateFieldType.Quaternion)]
+	[UpdateField(UpdateFieldType.PackedQuaternion, ClientVersionBuild.V3_0_2_9056)]
+	GAMEOBJECT_ROTATION,
+	GAMEOBJECT_PARENTROTATION,
+	GAMEOBJECT_STATE,
+	GAMEOBJECT_TYPE_ID,
+	GAMEOBJECT_POS_X,
+	GAMEOBJECT_POS_Y,
+	GAMEOBJECT_POS_Z,
+	GAMEOBJECT_SPELL_VISUAL_ID,
+	GAMEOBJECT_ARTKIT,
+	GAMEOBJECT_ANIMPROGRESS,
+	GAMEOBJECT_PADDING,
+	GAMEOBJECT_STATE_ANIM_ID,
+	GAMEOBJECT_STATE_ANIM_KIT_ID,
+	GAMEOBJECT_STATE_SPELL_VISUAL_ID,
+	GAMEOBJECT_STATE_WORLD_EFFECT_ID
+}

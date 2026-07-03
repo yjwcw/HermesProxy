@@ -1,0 +1,38 @@
+namespace HermesProxy.World.Enums;
+
+public enum CharacterFlags : uint
+{
+	None = 0u,
+	Unk1 = 1u,
+	Unk2 = 2u,
+	CharacterLockedForTransfer = 4u,
+	Unk4 = 8u,
+	Unk5 = 0x10u,
+	Unk6 = 0x20u,
+	Unk7 = 0x40u,
+	Unk8 = 0x80u,
+	Unk9 = 0x100u,
+	Unk10 = 0x200u,
+	HideHelm = 0x400u,
+	HideCloak = 0x800u,
+	Unk13 = 0x1000u,
+	Ghost = 0x2000u,
+	Rename = 0x4000u,
+	Unk16 = 0x8000u,
+	Unk17 = 0x10000u,
+	Unk18 = 0x20000u,
+	Unk19 = 0x40000u,
+	Unk20 = 0x80000u,
+	Unk21 = 0x100000u,
+	Unk22 = 0x200000u,
+	Unk23 = 0x400000u,
+	Unk24 = 0x800000u,
+	LockedByBilling = 0x1000000u,
+	Declined = 0x2000000u,
+	Unk27 = 0x4000000u,
+	Unk28 = 0x8000000u,
+	Unk29 = 0x10000000u,
+	Unk30 = 0x20000000u,
+	Unk31 = 0x40000000u,
+	Unk32 = 0x80000000u
+}
